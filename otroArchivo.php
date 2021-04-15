@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de prueba</title>
+    <title>PHP</title>
 </head>
 <body>
-    <h1>Pagina</h1>
-    <p>Esta es una prueba.</p>
-    <p>Otra línea de prueba.</p>
+    <h1>HTML + PHP</h1>
+    <p>Prueba de funcionamiento de PHP</p>
+    <?php
+        phpinfo();
+    ?>
 </body>
 </html>
